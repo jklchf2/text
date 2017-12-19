@@ -1,0 +1,43 @@
+34542406jklchf2@users.noreply.github.com
+
+1.如果当前电脑第一次安装git,需要自报家门
+用户名、
+git config --global user.name""
+邮箱
+git config --global user.email""
+
+2.初始化版本库
+git init
+3.将文件添加到暂存区
+git add readme.txt
+
+4.将文件提交到仓库
+git commit -m "readme.txt提交"
+5.检查是否还有文件未提交
+git status
+6.检查文件做了哪些修改
+git diff readme.txt
+
+先添加再提交
+
+7、查看添加日志
+git log
+8、回退到上一个版本
+git reset --hard HEAD^
+
+9、查看readme.txt 文本的内容
+cat readme.txt
+
+10、每次提交的版本号
+git log --pretty=oneline
+
+11、找到版本号
+git reflog
+
+12、回退到最新的版本
+
+
+
+
+
+
